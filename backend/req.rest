@@ -1,0 +1,10 @@
+DELETE http://localhost:3001/instruction HTTP/1.1
+content-type: application/json
+
+{
+    "product": "Wristband",
+    "instruction_link": "dummy.ca",
+    "materials": [
+        "Bottle", "Paper", "Marker"
+    ]
+}
